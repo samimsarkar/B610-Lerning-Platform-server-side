@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send("Md. Fahad Monshi");
+    res.send("Md. Samim Sarkar");
 })
 
 const courses = require('./data/courses.json');
